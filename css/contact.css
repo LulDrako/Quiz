@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #dfe9f5;  
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  margin-top: 220px;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  gap: 16px;
+}
+
+input,
+select,
+textarea {
+  padding: 22px;
+  background: transparent;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 95px;
+}
+
+button {
+  width: 115px;
+  padding: 20px;
+  cursor: pointer;
+  background: black;
+  color: white;
+  
+}
+
+.fin{
+  background-image: url("question.gif");
+  text-align: center;
+}
